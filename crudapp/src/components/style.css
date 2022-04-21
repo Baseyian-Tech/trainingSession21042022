@@ -1,0 +1,51 @@
+.todo-item{
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.todo-item > .card{
+    padding: 20px;
+}
+
+.todo-item > .card .card-title{
+
+    color: rgb(85, 115, 250);
+    text-transform: capitalize;
+}
+.todo-item > .card > .card-footer > .action #update{
+
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px ;
+    border: none;
+    margin-right:15px ;
+
+
+
+}
+.todo-item > .card > .card-footer > .action #update:hover{
+
+    background-color: rgb(255, 85, 85);
+    color: #000;
+    
+    
+}
+
+
+.todo-item > .card > .card-footer > .action .del{
+
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    padding: 5px 15px ;
+    border: none;
+    margin-right:15px ;
+
+
+
+}
+.todo-item > .card > .card-footer > .action .del:hover{
+
+    background-color: rgb(255, 85, 85);
+    
+    
+}
