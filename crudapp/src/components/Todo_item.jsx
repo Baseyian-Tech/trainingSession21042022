@@ -17,8 +17,8 @@ const Todoitem = ({ title, desc, id, deletedata, updatedata }) => {
                 </div>
                 <div className="card-footer ">
                     <div className="action">
-                        <button id="update" onClick={updatedata}>Update</button>
-                        <button className="del" onClick={deletedata} >Delete</button>
+                        <button id="update" onClick={() => updatedata(id)}>Update</button>
+                        <button className="del" onClick={() => deletedata(id)} >Delete</button>
                     </div>
 
                 </div>
