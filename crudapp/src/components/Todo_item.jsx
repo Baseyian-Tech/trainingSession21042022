@@ -9,7 +9,7 @@ const Todoitem = ({ title, desc, id, deletedata, updatedata }) => {
             <div className="card">
                 <div className="card-title">
                     <h1>{title}</h1>
-
+                    {/* <small>{id}</small> */}
                 </div>
                 <div className="card-body">
                     <p>{desc}</p>
